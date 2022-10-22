@@ -161,12 +161,6 @@ class Hexapod(object):
         self.__current_time = Hexapod.get_current_time_ms()
         self.__previous_time = 0
 
-    # def setup(coxa_length: int, femur_length: int, tibia_length: int):
-    #     self.COXA_LENGTH  = coxa_length
-    #     self.FEMUR_LENGTH = femur_length
-    #     self.TIBIA_LENGTH = tibia_length
-    #     pass
-
     @staticmethod
     def get_current_time_ms():
         return round(time.time() * 1000)
